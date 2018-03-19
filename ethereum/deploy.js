@@ -3,8 +3,8 @@ const Web3 = require("web3");
 const compiledFactory = require("./build/CampaignFactory.json");
 
 const provider = new HDWalletProvider(
-  "comic talent heart bamboo chalk define ancient jewel wire dry strategy effort",
-  "https://rinkeby.infura.io/04TZagwwylYxLoXeoY6u"
+  "[YOUR MNEMONIC PHRASE FROM METAMASK]",
+  "[YOUR INFURA ACCESS (https://infura.io/)]"
 );
 
 const web3 = new Web3(provider);
