@@ -20,6 +20,7 @@ class CampaignIndex extends Component {
             <a>View Campaign</a>
           </Link>
         ),
+        style: { overflowWrap: "break-word " },
         fluid: true
       };
     });
