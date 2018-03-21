@@ -10,15 +10,17 @@ The fund will be unlocked if more than 50% of the contributors approve the reque
 
 The [smart contract](https://rinkeby.etherscan.io/address/0x74E662ca03247f46592637Aef4C47eFd24DeF9fE) is deployed on the **Ethereum Rinkeby test network**.
 
-You can view the **live version** of this dapp **[here](https://kickstart-xrhoqyfcpf.now.sh/)**.
+### For this project I used:
 
-###For this project I used:
+* [Solidity](https://solidity.readthedocs.io/en/v0.4.21/) (Smart Contract language for the Ethereum blockchain).
+* [React.js](https://reactjs.org/) for the frontend of the app.
+* [Next.js](https://github.com/zeit/next.js/) for client-side routing and server-side rendering.
+* [Semantic UI React](https://react.semantic-ui.com/introduction) for easy/simple/quick styling of the app.
+* [Now](https://zeit.co/now) to deploy the dapp.
 
-* [Solidity](https://solidity.readthedocs.io/en/v0.4.21/) (Smart Contract language for the Ethereum blockchain)
-* [React.js](https://reactjs.org/) for the frontend of the app
-* [Next.js](https://github.com/zeit/next.js/) for client-side routing and server-side rendering
-* [Semantic UI React](https://react.semantic-ui.com/introduction) for easy/simple/quick styling of the app
+## Important note:
 
-##Important note:
 Users need **[MetaMask](https://metamask.io/)** installed in their browser to interact with the smart contract.
 **Before using MetaMask**, make sure you switched to the **Rinkeby test network** and have **funds available**.
+
+You can see the **live version** of this dapp **[here](https://blockstarter-tdzikfeuzq.now.sh/)**. **MetaMask require!**
