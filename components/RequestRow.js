@@ -17,8 +17,6 @@ class RequestRow extends Component {
     const campaign = Campaign(this.props.address);
     const accounts = await web3.eth.getAccounts();
 
-    console.log(accounts[0]);
-
     await campaign.methods.finalizeRequest(this.props.id).send({
       from: accounts[0]
     });
